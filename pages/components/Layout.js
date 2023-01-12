@@ -10,6 +10,9 @@ export default function Layout({ children }) {
         <meta name="viewport" content="initial-scale=1, width=device-width" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Universidad del Cemento y del Concreto - Instituto Mexicano del Cemento y del Concreto A.C." />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300;700&display=swap" rel="stylesheet"></link>
       </Head>
 
       {children}
