@@ -37,12 +37,13 @@ export default function Home() {
             noValidate
             autoComplete="off"
           >
-            <TextField id="filled-basic" label="Usuario" variant="filled" />
+            <TextField id="filled-basic" label="Usuario" variant="outlined"/>
             <FormControl sx={{ m: 1, width: '25ch' }} variant="filled">
-              <InputLabel htmlFor="filled-adornment-password">Contraseña</InputLabel>
+              <InputLabel htmlFor="filled-adornment-password" style={{'color':'#fff',}}>Contraseña</InputLabel>
               <FilledInput
                 id="filled-adornment-password"
                 type={showPassword ? 'text' : 'password'}
+                style={{'color':'#fff'}}
                 endAdornment={
                   <InputAdornment position="end">
                     <IconButton
@@ -50,6 +51,7 @@ export default function Home() {
                       onClick={handleClickShowPassword}
                       onMouseDown={handleMouseDownPassword}
                       edge="end"
+                      style={{'color':'#fff'}}
                     >
                       {showPassword ? <VisibilityOff /> : <Visibility />}
                     </IconButton>
