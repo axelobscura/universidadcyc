@@ -27,12 +27,12 @@ export default function Home() {
     <Layout>
       <div className={styles.container}>
         <main className={styles.main}>
-          <h1 className={styles.title}>Universidad Del Cemento y del Concreto</h1>
           <p>Instituto Mexicano del Cemento y del Concreto A.C.</p>
+          <h1 className={styles.title}>Universidad Del Cemento y del Concreto</h1>
           <Box
             component="form"
             sx={{
-              '& > :not(style)': { m: 1, width: '25ch' },
+              '& > :not(style)': { m: 1, width: '35ch' },
             }}
             noValidate
             autoComplete="off"
