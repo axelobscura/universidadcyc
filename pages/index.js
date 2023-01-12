@@ -3,28 +3,12 @@ import * as React from 'react';
 import Link from 'next/link';
 import Layout from './components/Layout';
 import styles from '../styles/Home.module.css';
-import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 import TextField from '@mui/material/TextField';
-import FilledInput from '@mui/material/FilledInput';
-import InputLabel from '@mui/material/InputLabel';
-import InputAdornment from '@mui/material/InputAdornment';
-import FormControl from '@mui/material/FormControl';
-import Visibility from '@mui/icons-material/Visibility';
-import VisibilityOff from '@mui/icons-material/VisibilityOff';
-import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
-import { useTheme } from '@mui/material/styles';
-import { styled } from '@mui/material/styles';
 
 export default function Home() {
-  const [showPassword, setShowPassword] = React.useState(false);
-  const handleClickShowPassword = () => setShowPassword((show) => !show);
-  const handleMouseDownPassword = (event) => {
-    event.preventDefault();
-  };
-
   return (
     <Layout>
       <div className={styles.container}>
@@ -43,40 +27,39 @@ export default function Home() {
           >
             Universidad Del Cemento y del Concreto
           </Typography>
-          <Box
-            component="form"
-            sx={{
-              '& > :not(style)': { m: 1, width: '35ch' },
-            }}
-            noValidate
-            autoComplete="off"
-          >
-            <TextField id="filled-basic" label="Usuario" variant="outlined" sx={{ display: 'flex', color: 'blue' }}/>
-            <FormControl sx={{ display: 'flex', m: 1, width: '25ch' }} variant="filled">
-              <InputLabel htmlFor="filled-adornment-password">Contraseña</InputLabel>
-              <FilledInput
-                id="filled-adornment-password"
-                type={showPassword ? 'text' : 'password'}
-                endAdornment={
-                  <InputAdornment position="end">
-                    <IconButton
-                      aria-label="toggle password visibility"
-                      onClick={handleClickShowPassword}
-                      onMouseDown={handleMouseDownPassword}
-                      edge="end"
-                    >
-                      {showPassword ? <VisibilityOff /> : <Visibility />}
-                    </IconButton>
-                  </InputAdornment>
-                }
-              />
-            </FormControl>
+
+          <form noValidate autoComplete='off' style={{'width':'50%'}}>
+            <TextField  
+              label='Usuario' 
+              fullWidth='true'
+              margin='dense'
+              sx={{
+                fontSize: '4rem',
+                marginBottom: '10px'
+              }}
+            />
+            <TextField  
+              label='Contraseña' 
+              fullWidth='true'
+              type='password'
+            />
             <Link href='/panel'>
-              <Button variant="contained" endIcon={<SendIcon />} style={{ 'height': '55px', 'marginTop': '8px' }}>
+              <Button 
+                variant="contained" 
+                endIcon={<SendIcon />} 
+                style={{ 
+                  'height': '55px', 
+                  'marginTop': '8px', 
+                  'fontSize': '2rem',
+                  'display': 'flex',
+                  'alignItems': 'center'
+                }}
+                fullWidth='true'
+              >
                 INGRESAR
               </Button>
             </Link>
-          </Box>
+          </form>
         </main>
       </div>
     </Layout>
