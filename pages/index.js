@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Layout from './components/Layout';
 import styles from '../styles/Home.module.css';
 import Box from '@mui/material/Box';
+import { Typography } from '@mui/material';
 import TextField from '@mui/material/TextField';
 import FilledInput from '@mui/material/FilledInput';
 import InputLabel from '@mui/material/InputLabel';
@@ -15,22 +16,33 @@ import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import { useTheme } from '@mui/material/styles';
+import { styled } from '@mui/material/styles';
 
 export default function Home() {
-  const theme = useTheme();
   const [showPassword, setShowPassword] = React.useState(false);
-
   const handleClickShowPassword = () => setShowPassword((show) => !show);
-
   const handleMouseDownPassword = (event) => {
     event.preventDefault();
   };
+
   return (
     <Layout>
       <div className={styles.container}>
         <main className={styles.main}>
-          <p className={theme.primary}>Instituto Mexicano del Cemento y del Concreto A.C.</p>
-          <h1 className={styles.title}>Universidad Del Cemento y del Concreto</h1>
+          <Typography
+            variant='h6'
+            color='primary'
+          >
+            Instituto Mexicano del Cemento y del Concreto A.C.
+          </Typography>
+          <Typography
+            variant='h2'
+            component='h1'
+            align='center'
+            gutterBottom
+          >
+            Universidad Del Cemento y del Concreto
+          </Typography>
           <Box
             component="form"
             sx={{
@@ -39,8 +51,8 @@ export default function Home() {
             noValidate
             autoComplete="off"
           >
-            <TextField id="filled-basic" label="Usuario" variant="outlined"/>
-            <FormControl sx={{ m: 1, width: '25ch' }} variant="filled">
+            <TextField id="filled-basic" label="Usuario" variant="outlined" sx={{ display: 'flex', color: 'blue' }}/>
+            <FormControl sx={{ display: 'flex', m: 1, width: '25ch' }} variant="filled">
               <InputLabel htmlFor="filled-adornment-password">Contraseña</InputLabel>
               <FilledInput
                 id="filled-adornment-password"

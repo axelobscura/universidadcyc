@@ -7,7 +7,7 @@ const theme = createTheme(
     {
       primary: 
         { 
-          main: '#111',
+          main: '#555',
         },
       secondary:
         { 
@@ -18,6 +18,11 @@ const theme = createTheme(
           main: red.A400, 
         },
     },
+    typography: {
+      fontFamily: 'Teko',
+      fontWeightLight: 300,
+      fontWeightBold: 700,
+    }
   }
 );
 
