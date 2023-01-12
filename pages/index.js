@@ -14,8 +14,10 @@ import VisibilityOff from '@mui/icons-material/VisibilityOff';
 import IconButton from '@mui/material/IconButton';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
+import { useTheme } from '@mui/material/styles';
 
 export default function Home() {
+  const theme = useTheme();
   const [showPassword, setShowPassword] = React.useState(false);
 
   const handleClickShowPassword = () => setShowPassword((show) => !show);
@@ -27,7 +29,7 @@ export default function Home() {
     <Layout>
       <div className={styles.container}>
         <main className={styles.main}>
-          <p>Instituto Mexicano del Cemento y del Concreto A.C.</p>
+          <p className={theme.primary}>Instituto Mexicano del Cemento y del Concreto A.C.</p>
           <h1 className={styles.title}>Universidad Del Cemento y del Concreto</h1>
           <Box
             component="form"
