@@ -17,8 +17,8 @@ input {
   font-family: 'Teko', sans-serif;
 }
 
-p {
-  color: #333;
+p, span {
+  color: #fff;
   font-size: 1.5rem;
   padding: 5px;
   margin: 0;

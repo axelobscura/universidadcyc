@@ -13,6 +13,10 @@ const theme = createTheme(
         { 
           main: '#19857b', 
         },
+      pastrami:
+        {
+          main: '#fff'
+        },
       error:
         { 
           main: red.A400, 
@@ -22,6 +26,7 @@ const theme = createTheme(
       fontFamily: 'Teko',
       fontWeightLight: 300,
       fontWeightBold: 700,
+      fontSize: '1.5rem'
     }
   }
 );

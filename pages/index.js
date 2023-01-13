@@ -34,7 +34,6 @@ export default function Home() {
               fullWidth='true'
               margin='dense'
               sx={{
-                fontSize: '4rem',
                 marginBottom: '10px'
               }}
             />
