@@ -2,6 +2,7 @@ import * as React from 'react';
 import Layout from './Layout';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
+import Carta from './Carta';
 
 export default function Contenido({ menu }) {
   return(
@@ -10,10 +11,12 @@ export default function Contenido({ menu }) {
         <Typography 
           variant='h1'
           color='powderblue'
-          padding='20px'
+          padding='20px 2px'
         >
           {menu}
         </Typography>
+        {menu && <Carta menu={menu}/>}
+        
       </Box>
     </Layout>
   )
