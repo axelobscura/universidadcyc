@@ -22,6 +22,7 @@ export default function Contenido({ menu }) {
               <Carta menu={menu}/>
               <Carta menu={menu}/>
               <Carta menu={menu}/>
+              <Carta menu={menu}/>
             </Grid>
           </>
         )}
