@@ -17,7 +17,7 @@ export default function Panel() {
     <Layout>
       <Box sx={{ flexGrow: 1, background: '#001e3c', height: '100vh' }}>
         <Grid container spacing={2}>
-          <Grid item xs={2} sx={{ 
+          <Grid item xs={3} sx={{ 
             boxShadow: '0 0 10px #000', 
             height: '100vh', 
             background: '#141a21',
@@ -26,7 +26,7 @@ export default function Panel() {
           }}>
             <Menu menuIten={(e) => menuItem(e)} />
           </Grid>
-          <Grid item xs={10}>
+          <Grid item xs={9}>
             <Contenido menu={menu} />
           </Grid>
         </Grid>
