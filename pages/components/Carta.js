@@ -34,7 +34,7 @@ export default function Carta({ menu }) {
   };
 
   return (
-    <Card sx={{ maxWidth: 245, background: '#141a21' }}>
+    <Card sx={{ maxWidth: 245, background: '#141a21', margin: '10px 20px' }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

@@ -3,6 +3,7 @@ import Layout from './Layout';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 import Carta from './Carta';
+import Grid from '@mui/material/Grid';
 
 export default function Contenido({ menu }) {
   return(
@@ -15,7 +16,15 @@ export default function Contenido({ menu }) {
         >
           {menu}
         </Typography>
-        {menu && <Carta menu={menu}/>}
+        {menu && (
+          <>
+            <Grid container>
+              <Carta menu={menu}/>
+              <Carta menu={menu}/>
+              <Carta menu={menu}/>
+            </Grid>
+          </>
+        )}
         
       </Box>
     </Layout>
