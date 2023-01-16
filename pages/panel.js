@@ -10,7 +10,8 @@ export default function Panel() {
   const [ menu, setMenu ] = useState();
 
   const menuItem = (e) => {
-    setMenu(e.target.innerText);
+    console.log(e);
+    setMenu(e.target.innerHTML);
   }
 
   return(

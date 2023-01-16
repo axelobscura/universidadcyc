@@ -11,8 +11,8 @@ export default function Contenido({ menu }) {
       <Box sx={{ flexGrow: 1, height: '100vh' }}>
         <Typography 
           variant='h1'
-          color='powderblue'
-          padding='20px 2px'
+          color='white'
+          padding='20px 10px'
         >
           {menu}
         </Typography>

@@ -41,12 +41,12 @@ export default function Menu({ menuIten }) {
       <nav aria-label="main mailbox folders">
         <List>
           {menu.map(val => (
-            <ListItem disablePadding key={val.id}>
+            <ListItem disablePadding key={val.id} onClick={menuIten}>
               <ListItemButton>
                 <ListItemIcon>
                   <AddIcon sx={{ color: '#fff' }} />
                 </ListItemIcon>
-                <ListItemText primary={val.titulo} className='lista' onClick={menuIten} />
+                <ListItemText primary={val.titulo} className='lista' />
               </ListItemButton>
             </ListItem>
           ))}
