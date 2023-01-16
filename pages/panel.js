@@ -6,13 +6,16 @@ import Grid from '@mui/material/Grid';
 import Menu from './components/Menu';
 import Contenido from './components/Contenido';
 
-export default function Panel() {
+export default function Panel(props) {
+  const posts = props.posts;
   const [ menu, setMenu ] = useState();
 
   const menuItem = (e) => {
     console.log(e);
     setMenu(e.target.innerHTML);
   }
+
+  console.log(posts);
 
   return(
     <Layout>
@@ -34,4 +37,17 @@ export default function Panel() {
       </Box>
     </Layout>
   )
+}
+
+// Fetching data from the JSON file
+import fsPromises from 'fs/promises';
+import path from 'path'
+export async function getStaticProps() {
+  const filePath = path.join(process.cwd(), 'data.json');
+  const jsonData = await fsPromises.readFile(filePath);
+  const objectData = JSON.parse(jsonData);
+
+  return {
+    props: objectData
+  }
 }
