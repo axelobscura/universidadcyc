@@ -7,8 +7,8 @@ import Grid from '@mui/material/Grid';
 
 export default function Contenido({ menu }) {
   return(
-    <Layout>
-      <Box sx={{ flexGrow: 1, background: '#001e3c', height: '100vh' }}>
+    <>
+      <Box sx={{ flexGrow: 1, height: '100vh' }}>
         <Typography 
           variant='h1'
           color='powderblue'
@@ -28,6 +28,6 @@ export default function Contenido({ menu }) {
         )}
         
       </Box>
-    </Layout>
+    </>
   )
 }
