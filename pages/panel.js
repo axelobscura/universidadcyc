@@ -11,7 +11,6 @@ export default function Panel(props) {
   const [ menu, setMenu ] = useState();
 
   const menuItem = (e) => {
-    console.log(e);
     setMenu(e.target.innerHTML);
   }
 

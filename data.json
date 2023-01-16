@@ -20,5 +20,49 @@
             "title": "Post 4",
             "content": "This is the full content of post 4"
         }
+    ],
+    "categorias": [
+        {
+            "id": 0,
+            "titulo": "Librería IMCYC",
+            "url": "libreria-imcyc",
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg",
+            "contenidos": [
+                {
+                    "id": 1,
+                    "titulo": "Test"
+                }
+            ]
+          },
+          {
+            "id": 1,
+            "titulo": "Publicaciones",
+            "url": "publicaciones",
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+          },
+          {
+            "id": 3,
+            "titulo": "Eventos",
+            "url": "eventos",
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+          },
+          {
+            "id": 4,
+            "titulo": "Acervo bibliográfico",
+            "url": "acervo-bibliografico",
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+          },
+          {
+            "id": 5,
+            "titulo": "Líderes del concreto",
+            "url": "lideres-del-concreto",
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+          },
+          {
+            "id": 6,
+            "titulo": "Webinars",
+            "url": "libreria-imcyc",
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+          }
     ]
 }
