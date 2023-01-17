@@ -9,6 +9,13 @@ import Divider from '@mui/material/Divider';
 import AddIcon from '@mui/icons-material/Add';
 
 export default function Menu({ menuIten, categorias }) {
+
+  if(!categorias){
+    return(
+      <h1>Cargando...</h1>
+    )
+  }
+
   return (
     <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent', color: 'white', fontSize: '2rem' }}>
       <nav aria-label="main mailbox folders">
