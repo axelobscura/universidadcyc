@@ -10,24 +10,24 @@ export default function Panel(props) {
   const categorias = props.categorias;
   const [ menu, setMenu ] = useState();
 
-  const menuItem = (e) => {
-    setMenu(e.target.innerHTML);
+  const menuItem = (val) => {
+    setMenu(val);
   }
 
   return(
     <Layout>
       <Box sx={{ flexGrow: 1, background: '#001e3c', height: '100vh' }}>
         <Grid container spacing={2}>
-          <Grid item xs={3} sx={{ 
+          <Grid item xs={1} sx={{ 
             boxShadow: '0 0 10px #000', 
             height: '100vh', 
             background: '#141a21',
             display: 'flex',
             alignItems: 'center'
           }}>
-            <Menu menuIten={(e) => menuItem(e)} categorias={categorias} />
+            <Menu menuIten={(val) => menuItem(val)} categorias={categorias} />
           </Grid>
-          <Grid item xs={9}>
+          <Grid item xs={11}>
             <Contenido menu={menu} categorias={categorias} />
           </Grid>
         </Grid>

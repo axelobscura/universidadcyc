@@ -24,6 +24,12 @@ p, span {
   margin: 0;
 }
 
+.icono-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
 * {
   box-sizing: border-box;
 }
