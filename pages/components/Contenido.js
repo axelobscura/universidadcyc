@@ -7,6 +7,18 @@ import Grid from '@mui/material/Grid';
 
 export default function Contenido({ menu, categorias }) {
 
+  if(!menu){
+    return(
+      <h2>Cargando...</h2>
+    )
+  }
+
+  if(!categorias){
+    return(
+      <h2>Cargando...</h2>
+    )
+  }
+
   const contenido = categorias.filter(val => val.titulo === menu);
 
   if(!contenido){
