@@ -34,13 +34,13 @@ export default function Carta({ menu, contenido }) {
     setExpanded(!expanded);
   };
 
-  const menuFormat = menu.split(' ').join('-').toLowerCase();
-
   if(!menu){
     return(
       <h2>Loading</h2>
     )
   }
+
+  const menuFormat = menu.split(' ').join('-').toLowerCase();
 
   return (
     <Card sx={{ maxWidth: 245, background: '#141a21', margin: '10px 10px' }}>
