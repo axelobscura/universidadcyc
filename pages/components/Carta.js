@@ -27,7 +27,7 @@ const ExpandMore = styled((props) => {
   }),
 }));
 
-export default function Carta({ menu }) {
+export default function Carta({ menu, contenido }) {
   const [expanded, setExpanded] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -36,8 +36,15 @@ export default function Carta({ menu }) {
 
   const menuFormat = menu.split(' ').join('-').toLowerCase();
 
+  if(!menu){
+    return(
+      <h2>Loading</h2>
+    )
+  }
+
   return (
     <Card sx={{ maxWidth: 245, background: '#141a21', margin: '10px 10px' }}>
+      {/* 
       <Link href={`/categoria/${menuFormat}`}>
         <CardHeader
           avatar={
@@ -50,22 +57,24 @@ export default function Carta({ menu }) {
               <MoreVertIcon  style={{color: '#fff'}} />
             </IconButton>
           }
-          title={menu}
+          title={contenido.titulo}
         />
       </Link>
+      */}
       <Link href={`/categoria/${menuFormat}`}>
         <CardMedia
           component="img"
-          height="194"
-          image="https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+          image={`https://webinarsenconcreto.com/${contenido.imagen}`}
           alt="Paella dish"
         />
       </Link>
+      {/* 
       <CardContent>
         <Typography variant="body2" color="text.white">
           Durabilidad del concreto...
         </Typography>
       </CardContent>
+      */}
       <CardActions disableSpacing>
         <IconButton aria-label="add to favorites">
           <FavoriteIcon style={{color: '#fff'}} />

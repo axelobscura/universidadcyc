@@ -6,6 +6,15 @@ import Carta from './Carta';
 import Grid from '@mui/material/Grid';
 
 export default function Contenido({ menu, categorias }) {
+
+  const contenido = categorias.filter(val => val.titulo === menu);
+
+  if(!contenido){
+    return (
+      <h2>Loading...</h2>
+    )
+  }
+
   return(
     <>
       <Box sx={{ flexGrow: 1, height: '100vh' }}>
@@ -19,10 +28,9 @@ export default function Contenido({ menu, categorias }) {
         {menu && (
           <>
             <Grid container>
-              <Carta menu={menu}/>
-              <Carta menu={menu}/>
-              <Carta menu={menu}/>
-              <Carta menu={menu}/>
+              {contenido[0].contenidos.map(val => (
+                <Carta key={val.id} menu={menu} contenido={val}/>
+              ))}
             </Grid>
           </>
         )}

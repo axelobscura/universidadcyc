@@ -7,11 +7,11 @@
             "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg",
             "contenidos": [
                 {
-                    "id": 1,
-                    "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
-                    "autor": "IMCYC",
-                    "imagen": "images/caratulas/grado.JPG",
-                    "documento": "imcyc/libros/grado.pdf"
+                  "id": 1,
+                  "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                  "autor": "IMCYC",
+                  "imagen": "images/caratulas/grado.JPG",
+                  "documento": "imcyc/libros/grado.pdf"
                 },
                 {
                   "id": 2,
@@ -26,6 +26,48 @@
                   "autor": "IMCYC",
                   "imagen": "images/caratulas/agregados.JPG",
                   "documento": "imcyc/libros/analisis_y_guia_de_estudio_tecnico_en_agregados.pdf"
+                },
+                {
+                  "id": 4,
+                  "titulo": "Acción de los agentes químicos y físicos sobre el concreto",
+                  "autor": "Miguel Angel Sanjuán Barbudo y Pedro Castro Borges",
+                  "imagen": "imcyc/libros/ACCION_DE_LOS_AGENTES_QUIMICOS_Y_FISICOS_SOBRE_EL_CONCRETO_CONSULTA.jpg",
+                  "documento": "imcyc/libros/ACCION_DE_LOS_AGENTES_QUIMICOS_Y_FISICOS_SOBRE_EL_CONCRETO_CONSULTA.pdf"
+                },
+                {
+                  "id": 5,
+                  "titulo": "Concreto para Técnicos de la Construcción",
+                  "autor": "Dr. René Muciño Castañeda",
+                  "imagen": "imcyc/libros/CONCRETO_PARA_TECNICOS_DE_LA_CONSTRUCCION_CONSULTA.jpg",
+                  "documento": "imcyc/libros/CONCRETO_PARA_TECNICOS_DE_LA_CONSTRUCCION_CONSULTA.pdf"
+                },
+                {
+                  "id": 6,
+                  "titulo": "Corrosión en estructuras de concreto armado",
+                  "autor": "Pedro Castro Borges",
+                  "imagen": "imcyc/libros/CORROSION_EN_ESTRUCTURAS_DE_CONCRETO_ARMADO_CONSULTA.jpg",
+                  "documento": "imcyc/libros/CORROSION_EN_ESTRUCTURAS_DE_CONCRETO_ARMADO_CONSULTA.pdf"
+                },
+                {
+                  "id": 7,
+                  "titulo": "Edificios altos Construidos en México",
+                  "autor": "lng. Raúl D. Granados Granados, Ing. Mario E. Rodríguez Rodríguez y Ing. Javier Cesín Farah",
+                  "imagen": "imcyc/libros/EDIFICIOS_ALTOS_CONSTRUIDOS_EN_MEXICO_CONSULTA.jpg",
+                  "documento": "imcyc/libros/EDIFICIOS_ALTOS_CONSTRUIDOS_EN_MEXICO_CONSULTA.pdf"
+                },
+                {
+                  "id": 8,
+                  "titulo": "EVALUACIÓN DE ESTRUCTURAS DE CONCRETO Técnicas y materiales para su reparación",
+                  "autor": "lng. Felipe de Jesús García Rodríguez",
+                  "imagen": "imcyc/libros/EVALUACION_DE_ESTRUCTURAS_DE_CONCRETO_CONSULTA.jpg",
+                  "documento": "imcyc/libros/EVALUACION_DE_ESTRUCTURAS_DE_CONCRETO_CONSULTA.pdf"
+                },
+                {
+                  "id": 9,
+                  "titulo": "GUÍA PARA EL ANÁLISIS Y DISEÑO SÍSMICO DE LAS ESTRUCTURAS DE CONCRETO REFORZADO PARA CONTENER LÍQUIDOS",
+                  "autor": "M. en I. Víctor M. Pavón R.",
+                  "imagen": "imcyc/libros/GUIA_PARA_EL_ANALISIS_Y_DISENO_SISMICO_DE_LAS_ESTRUCTURAS_DE_CONCRETO_REFORZADO_PARA_CONTENER_LIQUIDOS_CONSULTA.jpg",
+                  "documento": "imcyc/libros/GUIA_PARA_EL_ANALISIS_Y_DISEÑO_SISMICO_DE_LAS_ESTRUCTURAS_DE_CONCRETO_REFORZADO_PARA_CONTENER_LIQUIDOS_CONSULTA.pdf"
                 }
             ]
           },
@@ -33,31 +75,76 @@
             "id": 1,
             "titulo": "Publicaciones",
             "url": "publicaciones",
-            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg",
+            "contenidos": [
+              {
+                  "id": 1,
+                  "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                  "autor": "IMCYC",
+                  "imagen": "images/caratulas/grado.JPG",
+                  "documento": "imcyc/libros/grado.pdf"
+              }
+            ]
           },
           {
             "id": 3,
             "titulo": "Eventos",
             "url": "eventos",
-            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg",
+            "contenidos": [
+              {
+                  "id": 1,
+                  "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                  "autor": "IMCYC",
+                  "imagen": "images/caratulas/grado.JPG",
+                  "documento": "imcyc/libros/grado.pdf"
+              }
+            ]
           },
           {
             "id": 4,
             "titulo": "Acervo bibliográfico",
             "url": "acervo-bibliografico",
-            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg",
+            "contenidos": [
+              {
+                  "id": 1,
+                  "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                  "autor": "IMCYC",
+                  "imagen": "images/caratulas/grado.JPG",
+                  "documento": "imcyc/libros/grado.pdf"
+              }
+            ]
           },
           {
             "id": 5,
             "titulo": "Líderes del concreto",
             "url": "lideres-del-concreto",
-            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg",
+            "contenidos": [
+              {
+                  "id": 1,
+                  "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                  "autor": "IMCYC",
+                  "imagen": "images/caratulas/grado.JPG",
+                  "documento": "imcyc/libros/grado.pdf"
+              }
+            ]
           },
           {
             "id": 6,
             "titulo": "Webinars",
             "url": "libreria-imcyc",
-            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg"
+            "imagen": "https://www.arkiplus.com/wp-content/uploads/2013/08/concreto-historia2.jpg",
+            "contenidos": [
+              {
+                  "id": 1,
+                  "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                  "autor": "IMCYC",
+                  "imagen": "images/caratulas/grado.JPG",
+                  "documento": "imcyc/libros/grado.pdf"
+              }
+            ]
           }
     ]
 }
