@@ -7,14 +7,12 @@ import Menu from './components/Menu';
 import Contenido from './components/Contenido';
 
 export default function Panel(props) {
-  const posts = props.posts;
+  const categorias = props.categorias;
   const [ menu, setMenu ] = useState();
 
   const menuItem = (e) => {
     setMenu(e.target.innerHTML);
   }
-
-  console.log(posts);
 
   return(
     <Layout>
@@ -27,10 +25,10 @@ export default function Panel(props) {
             display: 'flex',
             alignItems: 'center'
           }}>
-            <Menu menuIten={(e) => menuItem(e)} />
+            <Menu menuIten={(e) => menuItem(e)} categorias={categorias} />
           </Grid>
           <Grid item xs={9}>
-            <Contenido menu={menu} />
+            <Contenido menu={menu} categorias={categorias} />
           </Grid>
         </Grid>
       </Box>

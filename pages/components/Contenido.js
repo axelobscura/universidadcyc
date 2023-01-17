@@ -5,7 +5,7 @@ import { Typography } from '@mui/material';
 import Carta from './Carta';
 import Grid from '@mui/material/Grid';
 
-export default function Contenido({ menu }) {
+export default function Contenido({ menu, categorias }) {
   return(
     <>
       <Box sx={{ flexGrow: 1, height: '100vh' }}>

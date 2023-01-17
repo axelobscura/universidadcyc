@@ -1,26 +1,4 @@
 {
-    "posts": [
-        {
-            "id": 1,
-            "title": "Post 1",
-            "content": "This is the full content of post 1"
-        },
-        {
-            "id": 2,
-            "title": "Post 2",
-            "content": "This is the full content of post 2"
-        },
-        {
-            "id": 3,
-            "title": "Post 3",
-            "content": "This is the full content of post 3"
-        },
-        {
-            "id": 4,
-            "title": "Post 4",
-            "content": "This is the full content of post 4"
-        }
-    ],
     "categorias": [
         {
             "id": 0,
@@ -30,7 +8,24 @@
             "contenidos": [
                 {
                     "id": 1,
-                    "titulo": "Test"
+                    "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                    "autor": "IMCYC",
+                    "imagen": "images/caratulas/grado.JPG",
+                    "documento": "imcyc/libros/grado.pdf"
+                },
+                {
+                  "id": 2,
+                  "titulo": "Experto en ensayes al concreto endurecido",
+                  "autor": "IMCYC",
+                  "imagen": "images/caratulas/resistencia.JPG",
+                  "documento": "imcyc/libros/analisis_y_guia_de_estudio_para_tecnico_en_pruebas_de_resistencia.pdf"
+                },
+                {
+                  "id": 3,
+                  "titulo": "Técnico en ensayes de agregados Nivel I",
+                  "autor": "IMCYC",
+                  "imagen": "images/caratulas/agregados.JPG",
+                  "documento": "imcyc/libros/analisis_y_guia_de_estudio_tecnico_en_agregados.pdf"
                 }
             ]
           },
