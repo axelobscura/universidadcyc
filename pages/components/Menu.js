@@ -28,7 +28,7 @@ export default function Menu({ menuIten, categorias }) {
         <List>
           {categorias.map(val => (
             <ListItem disablePadding key={val.id} onClick={() => menuIten(val.titulo)}>
-              <ListItemButton>
+              <ListItemButton className='icono-menu'>
                 <ListItemIcon className='icono-menu'>
                   {
                     val.titulo === "Librería IMCYC" ? <AutoStoriesIcon sx={{ color: '#fff' }} />

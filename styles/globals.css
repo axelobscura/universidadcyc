@@ -5,6 +5,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Teko', sans-serif;
+  overflow-y: hidden;
 }
 
 a {

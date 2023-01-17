@@ -29,7 +29,7 @@ export default function Contenido({ menu, categorias }) {
 
   return(
     <>
-      <Box sx={{ flexGrow: 1, height: '100vh' }}>
+      <Box sx={{ flexGrow: 1, height: '100vh', overflow: 'auto', padding: '30px' }}>
         <Typography 
           variant='h1'
           color='white'
@@ -39,7 +39,13 @@ export default function Contenido({ menu, categorias }) {
         </Typography>
         {menu && (
           <>
-            <Grid container>
+            <Grid 
+              container 
+              direction="row"
+              justifyContent="space-between" 
+              alignItems="center"
+              overflow="auto"
+            >
               {contenido[0].contenidos.map(val => (
                 <Carta key={val.id} menu={menu} contenido={val}/>
               ))}
