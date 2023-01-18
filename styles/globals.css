@@ -25,6 +25,12 @@ p, span {
   margin: 0;
 }
 
+.icono-menu-padre {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
 .icono-menu {
   display: flex;
   justify-content: center;

@@ -28,7 +28,7 @@ export default function Menu({ menuIten, categorias }) {
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding onClick={() => menuIten('')}>
-            <ListItemButton className='icono-menu'>
+            <ListItemButton className='icono-menu-padre'>
               <ListItemIcon className='icono-menu'>
                 <Tooltip title="Inicio" placement="right">
                   <HomeIcon sx={{ color: '#fff' }} />
@@ -38,7 +38,7 @@ export default function Menu({ menuIten, categorias }) {
           </ListItem>
           {categorias.map(val => (
             <ListItem disablePadding key={val.id} onClick={() => menuIten(val.titulo)}>
-              <ListItemButton className='icono-menu'>
+              <ListItemButton className='icono-menu-padre'>
                 <ListItemIcon className='icono-menu'>
                   <Tooltip title={val.titulo} placement="right">
                     {
