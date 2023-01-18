@@ -14,7 +14,7 @@ export default function Home() {
       <div className={styles.container}>
         <main className={styles.main}>
           <Typography
-            variant='h6'
+            variant='h2'
             color='primary'
           >
             Instituto Mexicano del Cemento y del Concreto A.C.
@@ -28,7 +28,7 @@ export default function Home() {
             Universidad Del Cemento y del Concreto
           </Typography>
 
-          <form noValidate autoComplete='off' style={{'width':'50%'}}>
+          <form noValidate autoComplete='off' style={{'width':'90%'}}>
             <TextField  
               label='Usuario' 
               fullWidth='true'

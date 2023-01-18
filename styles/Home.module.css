@@ -1,16 +1,25 @@
 .container {
   padding: 0 2rem;
+  background: url(/fondo.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
+  padding: 2rem 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'Teko', sans-serif;
+  background: rgba(255,255,255,0.8);
+  box-shadow: 0 0 10px #000;
 }
 
 .footer {
