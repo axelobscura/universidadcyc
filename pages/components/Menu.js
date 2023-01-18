@@ -13,6 +13,7 @@ import AutoAwesomeMotionIcon from '@mui/icons-material/AutoAwesomeMotion';
 import AttributionIcon from '@mui/icons-material/Attribution';
 import BallotIcon from '@mui/icons-material/Ballot';
 import HomeIcon from '@mui/icons-material/Home';
+import { Tooltip } from '@mui/material';
 
 export default function Menu({ menuIten, categorias }) {
 
@@ -29,7 +30,9 @@ export default function Menu({ menuIten, categorias }) {
           <ListItem disablePadding onClick={() => menuIten('')}>
             <ListItemButton className='icono-menu'>
               <ListItemIcon className='icono-menu'>
-                <HomeIcon sx={{ color: '#fff' }} />
+                <Tooltip title="Inicio" placement="right">
+                  <HomeIcon sx={{ color: '#fff' }} />
+                </Tooltip>
               </ListItemIcon>
             </ListItemButton>
           </ListItem>
@@ -37,15 +40,17 @@ export default function Menu({ menuIten, categorias }) {
             <ListItem disablePadding key={val.id} onClick={() => menuIten(val.titulo)}>
               <ListItemButton className='icono-menu'>
                 <ListItemIcon className='icono-menu'>
-                  {
-                    val.titulo === "Librería IMCYC" ? <AutoStoriesIcon sx={{ color: '#fff' }} />
-                    : val.titulo === "Publicaciones" ? <ImportContactsIcon sx={{ color: '#fff' }} />
-                    : val.titulo === "Eventos" ? <AssignmentIndIcon sx={{ color: '#fff' }} />
-                    : val.titulo === "Acervo bibliográfico" ? <AutoAwesomeMotionIcon sx={{ color: '#fff' }} />
-                    : val.titulo === "Líderes del concreto" ? <AttributionIcon sx={{ color: '#fff' }} />
-                    : val.titulo === "Webinars" ? <BallotIcon sx={{ color: '#fff' }} />
-                    : <AddIcon sx={{ color: '#fff' }} />
-                  }
+                  <Tooltip title={val.titulo} placement="right">
+                    {
+                      val.titulo === "Librería IMCYC" ? <AutoStoriesIcon sx={{ color: '#fff' }} />
+                      : val.titulo === "Publicaciones" ? <ImportContactsIcon sx={{ color: '#fff' }} />
+                      : val.titulo === "Eventos" ? <AssignmentIndIcon sx={{ color: '#fff' }} />
+                      : val.titulo === "Acervo bibliográfico" ? <AutoAwesomeMotionIcon sx={{ color: '#fff' }} />
+                      : val.titulo === "Líderes del concreto" ? <AttributionIcon sx={{ color: '#fff' }} />
+                      : val.titulo === "Webinars" ? <BallotIcon sx={{ color: '#fff' }} />
+                      : <AddIcon sx={{ color: '#fff' }} />
+                    }
+                  </Tooltip>
                 </ListItemIcon>
               </ListItemButton>
             </ListItem>
