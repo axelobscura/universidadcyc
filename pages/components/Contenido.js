@@ -9,7 +9,31 @@ export default function Contenido({ menu, categorias }) {
 
   if(!menu){
     return(
-      <h2>Cargando...</h2>
+      <Box sx={{ flexGrow: 1, height: '100vh', overflow: 'auto', padding: '30px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+          <Typography 
+            variant='h1'
+            color='white'
+            padding='10px'
+          >
+          BIENVENIDO 
+          </Typography>
+          <Typography 
+            variant='h3'
+            color='white'
+            padding='10px'
+          >
+          INSTITUTO MEXICANO DEL CEMENTO Y DEL CONCRETO A.C.
+          </Typography>
+          <Typography 
+            variant='h1'
+            color='white'
+            padding='10px'
+            sx={{ fontSize: '4rem' }}
+          >
+          UNIVERSIDAD DEL CEMENTO Y DEL CONCRETO
+          </Typography>
+      </Box>
+      
     )
   }
 

@@ -26,7 +26,7 @@ const theme = createTheme(
       fontFamily: 'Teko',
       fontWeightLight: 300,
       fontWeightBold: 700,
-      fontSize: '1.5rem'
+      fontSize: '2rem'
     }
   }
 );
