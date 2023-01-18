@@ -68,6 +68,48 @@
                   "autor": "M. en I. Víctor M. Pavón R.",
                   "imagen": "imcyc/libros/GUIA_PARA_EL_ANALISIS_Y_DISENO_SISMICO_DE_LAS_ESTRUCTURAS_DE_CONCRETO_REFORZADO_PARA_CONTENER_LIQUIDOS_CONSULTA.jpg",
                   "documento": "imcyc/libros/GUIA_PARA_EL_ANALISIS_Y_DISEÑO_SISMICO_DE_LAS_ESTRUCTURAS_DE_CONCRETO_REFORZADO_PARA_CONTENER_LIQUIDOS_CONSULTA.pdf"
+                },
+                {
+                  "id": 10,
+                  "titulo": "Infraestructura de concreto armado deterioro y opciones de preservación",
+                  "autor": "Pedro Castro Borges",
+                  "imagen": "imcyc/libros/INFRAESTRUCTURA_DE_CONCRETO_ARMADO_DETERIORO_Y_OPCIONES_DE_PRESERVACION_CONSULTA.jpg",
+                  "documento": "imcyc/libros/INFRAESTRUCTURA_DE_CONCRETO_ARMADO_DETERIORO_Y_OPCIONES_DE_PRESERVACION_CONSULTA.pdf"
+                },
+                {
+                  "id": 11,
+                  "titulo": "Manual de identificación práctica de minerales y rocas para su uso como Agregados para Concreto",
+                  "autor": "Ing. Roberto Uribe Afif",
+                  "imagen": "imcyc/libros/MANUAL_DE_IDENTIFICACION_PRACTICAS_DE_MINERALES_Y_ROCAS_PARA_SU_USO_COMO_AGREGADOS_PARA_CONCRETO_CONSULTA.jpg",
+                  "documento": "imcyc/libros/MANUAL_DE_IDENTIFICACION_PRACTICAS_DE_MINERALES_Y_ROCAS_PARA_SU_USO_COMO_AGREGADOS_PARA_CONCRETO_CONSULTA.pdf"
+                },
+                {
+                  "id": 12,
+                  "titulo": "Suelo - Cemento - Sus usos, propiedades y aplicaciones",
+                  "autor": "M. en l. Eduardo de la Fuente Lavalle",
+                  "imagen": "imcyc/libros/SUELO_CEMENTO_CONSULTA.jpg",
+                  "documento": "imcyc/libros/SUELO_CEMENTO_CONSULTA.pdf"
+                },
+                {
+                  "id": 13,
+                  "titulo": "Temas fundamentales de concreto presforzado",
+                  "autor": "Dr. lng. Felipe de Jesús Orozco Zepeda",
+                  "imagen": "imcyc/libros/TEMAS_FUNDAMENTALES_DEL_CONCRETO_PRESFORZADO_CONSULTA.jpg",
+                  "documento": "imcyc/libros/TEMAS_FUNDAMENTALES_DEL_CONCRETO_PRESFORZADO_CONSULTA.pdf"
+                },
+                {
+                  "id": 14,
+                  "titulo": "Durabilidad de estructuras de concreto en México",
+                  "autor": "Dr. Manuel Mena Ferrer",
+                  "imagen": "images/caratulas/durabilidad.jpg",
+                  "documento": "imcyc/libros/DURABILIDAD_DE_ESTRUCTURAS_DE_CONCRETO_EN_MEXICO_CONSULTA.pdf"
+                },
+                {
+                  "id": 15,
+                  "titulo": "Manual de Evaluación Forense - ESTRUCTURAS DE CONCRETO",
+                  "autor": "Ángel Ponce Córdova y Roberto Uribe Afif",
+                  "imagen": "/imcyc/libros/forense.jpg",
+                  "documento": "imcyc/libros/forense.pdf"
                 }
             ]
           },
