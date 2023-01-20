@@ -10,6 +10,7 @@ export default function Contenido({ menu, categorias }) {
   if(!menu){
     return(
       <Box sx={{ flexGrow: 1, height: '100vh', overflow: 'auto', padding: '30px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+          <img src='/logo.svg' alt='tecnológico del cemento y del concreto' title='tecnológico del cemento y del concreto' style={{ 'marginBottom' : '40px', 'width': '320px'}} />
           <Typography 
             variant='h1'
             color='white'

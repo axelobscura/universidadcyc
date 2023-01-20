@@ -25,6 +25,7 @@ export default function Menu({ menuIten, categorias }) {
 
   return (
     <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent', color: 'white', fontSize: '2rem' }}>
+      <img src='/logo.svg' alt='tecnológico del cemento y del concreto' title='tecnológico del cemento y del concreto' style={{ 'marginBottom' : '40px', 'width': '100%', 'padding': '10px'}} />
       <nav aria-label="main mailbox folders">
         <List>
           <ListItem disablePadding onClick={() => menuIten('')}>
