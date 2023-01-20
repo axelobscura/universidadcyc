@@ -153,6 +153,13 @@
                 "autor": "IMCYC",
                 "imagen": "imcyc/publicaciones/n3.png",
                 "documento": "imcyc/publicaciones/NE3.pdf"
+              },
+              {
+                "id": 6,
+                "titulo": "El uso de concreto de alto desempeño",
+                "autor": "IMCYC",
+                "imagen": "imcyc/publicaciones/s1.png",
+                "documento": "imcyc/publicaciones/S1.pdf"
               }
             ]
           },
