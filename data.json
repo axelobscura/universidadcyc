@@ -171,10 +171,10 @@
             "contenidos": [
               {
                   "id": 1,
-                  "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                  "titulo": "Primer encuentro del cemento y del concreto - 2017",
                   "autor": "IMCYC",
-                  "imagen": "images/caratulas/grado.JPG",
-                  "documento": "imcyc/libros/grado.pdf"
+                  "imagen": "imcyc/eventos/encuentro.jpg",
+                  "documento": "imcyc/eventos/encuentro.pdf"
               }
             ]
           },
