@@ -24,7 +24,7 @@ export default function Panel(props) {
         height: '100vh' 
       }}>
         <Grid container spacing={2}>
-          <Header/>
+          <Header menu={menu}/>
         </Grid>
         <Grid container spacing={2}>
           <Grid item xs={1} sx={{

@@ -26,7 +26,7 @@ export default function MenuHeader() {
         aria-controls={open ? 'demo-positioned-menu' : undefined}
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
-        onClick={handleClick}
+        //onClick={handleClick}
         style={{
           padding: 0
         }}
@@ -54,16 +54,23 @@ export default function MenuHeader() {
           horizontal: 'left',
         }}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem onClick={handleClose}>Perfil de usuario</MenuItem>
+        <MenuItem onClick={handleClose}>Mi cuenta</MenuItem>
+        <MenuItem onClick={handleClose}>Salir</MenuItem>
       </Menu>
-      <AccountCircleIcon
-        sx={{
-          color: '#fff',
-          fontSize: 30,
+      <Button
+        onClick={handleClick}
+        style={{
+          padding: 0
         }}
-      />
+      >
+        <AccountCircleIcon
+          sx={{
+            color: '#fff',
+            fontSize: 30,
+          }}
+        />
+      </Button>
       <Button
         onClick={handleClick}
         style={{

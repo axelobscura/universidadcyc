@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Layout from './Layout';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
 import Carta from './Carta';
@@ -9,7 +8,16 @@ export default function Contenido({ menu, categorias }) {
 
   if(!menu){
     return(
-      <Box sx={{ flexGrow: 1, height: '80vh', overflow: 'auto', padding: '10px', display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+      <Box sx={{ 
+        flexGrow: 1, 
+        height: '100vh', 
+        overflow: 'auto',
+        padding: '10px', 
+        display: 'flex', 
+        justifyContent: 'center', 
+        alignItems: 'center', 
+        flexDirection: 'column' 
+      }}>
           <img src='/logo.svg' alt='tecnológico del cemento y del concreto' title='tecnológico del cemento y del concreto' style={{ 'marginBottom' : '40px', 'width': '320px'}} />
           <Typography 
             variant='h1'
@@ -55,13 +63,6 @@ export default function Contenido({ menu, categorias }) {
   return(
     <>
       <Box sx={{ flexGrow: 1, height: '100vh', overflow: 'auto', }}>
-        <Typography 
-          variant='h1'
-          color='white'
-          padding='10px'
-        >
-          {menu}
-        </Typography>
         {menu && (
           <>
             <Grid 
