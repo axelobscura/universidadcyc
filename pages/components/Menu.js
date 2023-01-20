@@ -27,21 +27,6 @@ export default function Menu({ menuIten, categorias }) {
     <Box sx={{ width: '100%', maxWidth: 360, bgcolor: 'transparent', color: 'white', fontSize: '2rem' }}>
       <nav aria-label="">
         <List>
-          <ListItem disablePadding onClick={() => menuIten('')}>
-            <ListItemButton 
-              className='icono-menu-padre'
-              sx={{
-                textAlign: 'center',
-                justifyContent: 'center'
-              }}
-            >
-              <ListItemIcon className='icono-menu'>
-                <Tooltip title="Inicio" placement="right">
-                  <HomeIcon sx={{ color: '#fff' }} />
-                </Tooltip>
-              </ListItemIcon>
-            </ListItemButton>
-          </ListItem>
           {categorias.map(val => (
             <ListItem disablePadding key={val.id} onClick={() => menuIten(val.titulo)}>
               <ListItemButton 
