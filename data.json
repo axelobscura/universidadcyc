@@ -121,10 +121,38 @@
             "contenidos": [
               {
                   "id": 1,
-                  "titulo": "Manual del técnico para pruebas al concreto en obra. Grado I",
+                  "titulo": "Evaluación integral de una ceniza volante para uso como aditivo mineral en la fabricación de concreto",
                   "autor": "IMCYC",
-                  "imagen": "images/caratulas/grado.JPG",
-                  "documento": "imcyc/libros/grado.pdf"
+                  "imagen": "imcyc/publicaciones/t1.png",
+                  "documento": "imcyc/publicaciones/IT1.pdf"
+              },
+              {
+                "id": 2,
+                "titulo": "Evaluación integral de una ceniza volante para uso como aditivo mineral en la fabricación de concreto",
+                "autor": "IMCYC",
+                "imagen": "imcyc/publicaciones/t2.png",
+                "documento": "imcyc/publicaciones/IT2.pdf"
+              },
+              {
+                "id": 3,
+                "titulo": "El uso de concreto de alto desempeño",
+                "autor": "IMCYC",
+                "imagen": "imcyc/publicaciones/n1.png",
+                "documento": "imcyc/publicaciones/NE1.pdf"
+              },
+              {
+                "id": 4,
+                "titulo": "El uso de concreto de alto desempeño",
+                "autor": "IMCYC",
+                "imagen": "imcyc/publicaciones/n2.png",
+                "documento": "imcyc/publicaciones/NE2.pdf"
+              },
+              {
+                "id": 5,
+                "titulo": "El uso de concreto de alto desempeño",
+                "autor": "IMCYC",
+                "imagen": "imcyc/publicaciones/n3.png",
+                "documento": "imcyc/publicaciones/NE3.pdf"
               }
             ]
           },
