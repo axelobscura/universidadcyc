@@ -1,6 +1,7 @@
 .container {
   padding: 0 2rem;
-  background: url(/fondo.jpg) no-repeat center center fixed; 
+  background: #100839;
+  background: linear-gradient(27deg, rgba(16,8,57,1) 0%, rgba(10,81,135,1) 30%, rgba(10,81,135,1) 62%, rgba(16,8,57,1) 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -18,8 +19,7 @@
   justify-content: center;
   align-items: center;
   font-family: 'Teko', sans-serif;
-  background: rgba(255,255,255,0.8);
-  box-shadow: 0 0 10px #000;
+  text-align: center;
 }
 
 .footer {

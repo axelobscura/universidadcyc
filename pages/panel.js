@@ -16,7 +16,12 @@ export default function Panel(props) {
 
   return(
     <Layout>
-      <Box sx={{ flexGrow: 1, background: '#001e3c', height: '100vh' }}>
+      <Box sx={{ 
+        flexGrow: 1, 
+        background: '#100839',
+        background: 'linear-gradient(27deg, rgba(16,8,57,1) 0%, rgba(10,81,135,1) 30%, rgba(10,81,135,1) 62%, rgba(16,8,57,1) 100%)',
+        height: '100vh' 
+      }}>
         <Grid container spacing={2}>
           <Grid item xs={1} sx={{ 
             boxShadow: '0 0 10px #000', 
