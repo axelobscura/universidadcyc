@@ -43,7 +43,7 @@ export default function Carta({ menu, contenido }) {
   const menuFormat = menu.split(' ').join('-').toLowerCase();
 
   return (
-    <Card sx={{ maxWidth: 245, background: '#141a21', margin: '10px 10px' }}>
+    <Card sx={{ maxWidth: 200, background: '#141a21', margin: '10px 10px' }}>
       {/* 
       <Link href={`/categoria/${menuFormat}`}>
         <CardHeader
