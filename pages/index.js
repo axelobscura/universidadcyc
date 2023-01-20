@@ -24,7 +24,7 @@ export default function Home() {
                 input: {
                   background: "#fff",
                   width: "100%",
-                  fontSize: '1.2rem',
+                  fontSize: 1.2,
                   border: 'none'
                 },
               }}
