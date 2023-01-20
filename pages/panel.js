@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Layout from './components/Layout';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid';
+import Header from './components/Header';
 import Menu from './components/Menu';
 import Contenido from './components/Contenido';
 
@@ -23,10 +24,11 @@ export default function Panel(props) {
         height: '100vh' 
       }}>
         <Grid container spacing={2}>
-          <Grid item xs={1} sx={{ 
-            boxShadow: '0 0 10px #000', 
-            height: '100vh', 
-            background: '#141a21',
+          <Header/>
+        </Grid>
+        <Grid container spacing={2}>
+          <Grid item xs={1} sx={{
+            height: '90vh',
             display: 'flex',
             alignItems: 'center'
           }}>
